@@ -1,5 +1,5 @@
 <?php
-//global
+//global e
 
 //Tudo que escrevo fora das funções, é de escopo global
 //$name = 'Lucas';

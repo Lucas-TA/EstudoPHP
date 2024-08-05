@@ -1,2 +1,2 @@
 <?php
-$_SESSION['name'] = 'Lucas';
+$_SESSION['name'] = 'Lucas ';

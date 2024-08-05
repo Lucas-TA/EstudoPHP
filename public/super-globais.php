@@ -27,4 +27,4 @@
 
     //$_REQUEST pega os dados do GET e/ou do POST
 
-    //$_SERVER
+    //$_SERVER e
