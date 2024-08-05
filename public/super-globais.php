@@ -14,6 +14,7 @@
             //setcookie('name', 'Lucas', strtotime('-5 days'))
     //$_SESSION
         //Para criar uma sessão:
+        //session_start();
         //$_SESSION['name'] = 'Lucas';
             echo $_SESSION['name'];
 
