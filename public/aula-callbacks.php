@@ -70,8 +70,8 @@
         //    }
         //    echo teste($user);
     //call_user_func_array
-    function teste($name, $age)
-    {
-        return 'Olá meu nome é ' .$name . 'e minha idade é ' .$age;
-    }
-    echo call_user_func_array('teste', ['Lucas', '24 ']);
+            //    function teste($name, $age)
+            //    {
+            //        return 'Olá meu nome é ' .$name . 'e minha idade é ' .$age;
+            //    }
+            //    echo call_user_func_array('teste', ['Lucas', '24 ']);
