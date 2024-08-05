@@ -1,4 +1,7 @@
 <?php
-session_start();
-echo session_id();
-$_SESSION['name'] = 'Lucas ';
+    require '../vendor/autoload.php';
+
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
+
+    var_dump($_ENV['KEY']);

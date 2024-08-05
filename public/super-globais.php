@@ -14,10 +14,16 @@
             //setcookie('name', 'Lucas', strtotime('-5 days'))
     //$_SESSION
         //Para criar uma sessão:
-        //session_start();
-        //$_SESSION['name'] = 'Lucas';
-            echo $_SESSION['name'];
-
+            //session_start();
+            //$_SESSION['name'] = 'Lucas';
+                //echo $_SESSION['name'];
+                //echo (isset($_SESSION['name'])) ? 'Sessão existe ' .$_SESSION['name'] : 'Sessão não existe';
+        //Para excluir sessões
+            //unset($_SESSION['name']);
+        //ou
+            //session_destroy(); exclui todas as sessões existentes;
+        //Para gerar um novo id de sessão:
+            //session_regenerate_id(); Toda vez que atualizar a página, o id muda
     //$_ENV
 
     //$_FILES
