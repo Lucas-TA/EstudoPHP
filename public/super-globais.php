@@ -25,10 +25,19 @@
         //Para gerar um novo id de sessão:
             //session_regenerate_id(); Toda vez que atualizar a página, o id muda
     //$_ENV
-
+        //Instalar o seguinte repositório para configurar as variáveis de ambiente
+        //https://github.com/vlucas/phpdotenv
+        //Para utilizar as variáveis de ambiente, acrescente o código a seguir:
+        //    require '../vendor/autoload.php';
+        //
+        //    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+        //    $dotenv->load();
+        //
+        //    var_dump($_ENV['KEY']);
     //$_FILES
 
-    //$_GET seusite.com.br?id=28&name=lucas get pega o id e o name da query string
+    //$_GET
+        // seusite.com.br?id=28&name=lucas $_GET pega as informações da query string, como nesse caso o id e o name
 
     //$_POST pega os dados do header
 
